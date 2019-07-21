@@ -14,7 +14,7 @@ let currentAxis = 'y';
 let goAround = false;
 let directionToGo = '';
 let ghostChangedPosition = false;
-let direction = 's';
+let direction = 'd';
 let goToVerifyDirection = false;
 const scoreBoard = document.getElementById('scoreBoard');
 const scoreValue = document.getElementById('scoreValue');
@@ -44,7 +44,7 @@ const boardToRender = [
     [4,3,3,3,3,3,3,3,3,3,4,3,3,3,4,3,3,3,3,3,3,3,3,3,3,3,4],
     [4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4],
 ];
-const pacManPosition = {x: 17, y: 15}
+const pacManPosition = {x: 14, y: 18}
 const ghostPosition = {x: 1, y: 10}
 const pacMan = document.createElement('div');
 pacMan.classList.add('pacMan');
