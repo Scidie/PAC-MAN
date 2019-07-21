@@ -128,7 +128,7 @@ function movePacMan() {
             pacManPosition.x = pacManPosition.x - 1;
             if (ghostGotPacman === false) {
                 if (openMouth === true) {
-                    pacMan.style.backgroundImage = "url('/images/closedMouth.png')"
+                    pacMan.style.backgroundImage = "url('images/closedMouth.png')"
                     openMouthCounter++;
                     if (openMouthCounter === 2) {
                         openMouthCounter = 0;
@@ -136,7 +136,7 @@ function movePacMan() {
                     }
                     
                 } else {
-                    pacMan.style.backgroundImage = "url('/images/openedMouthUp.png')"
+                    pacMan.style.backgroundImage = "url('images/openedMouthUp.png')"
                     openMouth = true;
                 }
             }
@@ -149,14 +149,14 @@ function movePacMan() {
             pacManPosition.x = pacManPosition.x + 1;
             if (ghostGotPacman === false) {
                 if (openMouth === true) {
-                    pacMan.style.backgroundImage = "url('/images/closedMouth.png')"
+                    pacMan.style.backgroundImage = "url('images/closedMouth.png')"
                     openMouthCounter++;
                     if (openMouthCounter === 2) {
                         openMouthCounter = 0;
                         openMouth = false;
                     }
                 } else {
-                    pacMan.style.backgroundImage = "url('/images/openedMouthDown.png')"
+                    pacMan.style.backgroundImage = "url('images/openedMouthDown.png')"
                     openMouth = true;
                 }
             }
@@ -169,14 +169,14 @@ function movePacMan() {
             pacManPosition.y = pacManPosition.y - 1;
             if (ghostGotPacman === false) {
                 if (openMouth === true) {
-                    pacMan.style.backgroundImage = "url('/images/closedMouth.png')"
+                    pacMan.style.backgroundImage = "url('images/closedMouth.png')"
                     openMouthCounter++;
                     if (openMouthCounter === 2) {
                         openMouthCounter = 0;
                         openMouth = false;
                     }
                 } else {
-                    pacMan.style.backgroundImage = "url('/images/openedMouthLeft.png')"
+                    pacMan.style.backgroundImage = "url('images/openedMouthLeft.png')"
                     openMouth = true;
                 }
             }
@@ -189,14 +189,14 @@ function movePacMan() {
             pacManPosition.y = pacManPosition.y + 1;
             if (ghostGotPacman === false) {
                 if (openMouth === true) {
-                    pacMan.style.backgroundImage = "url('/images/closedMouth.png')"
+                    pacMan.style.backgroundImage = "url('images/closedMouth.png')"
                     openMouthCounter++;
                     if (openMouthCounter === 2) {
                         openMouthCounter = 0;
                         openMouth = false;
                     }
                 } else {
-                    pacMan.style.backgroundImage = "url('/images/openedMouthRight.png')"
+                    pacMan.style.backgroundImage = "url('images/openedMouthRight.png')"
                     openMouth = true;
                 }
             }

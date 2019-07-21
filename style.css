@@ -7,7 +7,7 @@
 .empty {
     width: 20px;
     height: 20px;
-    background: url('/images/food.jpg');
+    background: url('images/food.jpg');
     background-size: cover;
 }
 
@@ -28,7 +28,7 @@
 .ghost {
     width: 20px;
     height: 20px;
-    background: url('/images/pacman-ghost-des.png');
+    background: url('images/pacman-ghost-des.png');
     background-size: cover;
     z-index: 50;
     transform: scale(2.8);
