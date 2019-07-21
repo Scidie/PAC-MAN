@@ -1,0 +1,102 @@
+.wall {
+    width: 20px;
+    height: 20px;
+    background: brown;
+}
+
+.empty {
+    width: 20px;
+    height: 20px;
+    background: url('/images/food.jpg');
+    background-size: cover;
+}
+
+.empty-empty {
+    width: 20px;
+    height: 20px;
+    background: black;
+}
+
+.pacMan {
+    width: 20px;
+    height: 20px;
+    background-size: cover;
+    border-radius: 50%;
+    transform: scale(2.8);
+}
+
+.ghost {
+    width: 20px;
+    height: 20px;
+    background: url('/images/pacman-ghost-des.png');
+    background-size: cover;
+    z-index: 50;
+    transform: scale(2.8);
+}
+
+.invisibleWall {
+    width: 20px;
+    height: 20px;
+    background: transparent;
+    transform: scale(0.1);
+}
+
+.visibleWall {
+    width: 20px;
+    height: 20px;
+    background: blue;
+}
+
+#gameBoardContainer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#gameBoard {
+    display: flex;
+    flex-direction: column;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+}
+
+#scoreBoard {
+    height: 100px;
+    line-height: 100px;
+    background: black;
+    color: yellow;
+    font-size: 40px;
+    text-align: center;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    font-family: 'Varela Round', sans-serif;
+    background: black;
+}
+
+#mainContainer {
+    display: flex;
+    width: fit-content;
+    flex-direction: column;
+}
+
+.gameOverScreen {
+    width: 820px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 100;
+    position: absolute;
+    top: 500px;
+    background: transparent;
+    color: red;
+    font-size: 100px;
+    font-weight: bold;
+}
+
+@import url('https://fonts.googleapis.com/css?family=Varela+Round&display=swap');
